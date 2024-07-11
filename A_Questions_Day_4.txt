@@ -1,0 +1,784 @@
+
+
+Description
+
+Sheldon Cooper has a square-shaped puzzle made up of small square pieces containing numbers on them. He wants to rearrange the puzzle by changing the elements of a row into a column element and the column element into a row element without altering the shape of the puzzle. Help Sheldon solves this puzzle. Write a program to find the transpose of the given 2D matrix.
+
+
+
+Input Format
+
+The first line consists of an integer which represents the number of rows and columns. The next line consists of the elements in the matrix.
+
+
+
+Output Format
+
+Output prints the transpose of the input matrix.
+
+
+
+Sample Input
+
+3
+
+1 2 3
+
+4 5 6
+
+7 8 9
+
+
+
+Sample Output
+
+1 2 3
+
+4 5 6
+
+7 8 9
+
+Transpose matrix is:
+
+1 4 7
+
+2 5 8
+
+3 6 9
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Irene who is one of the organizers of the event has arranged the audience(boys and girls)in a matrix format. Separate values were given to boys and girls which are 1 and 0 respectively. The arrangement should be done based on one condition. She should arrange all the girls below the main diagonal since it is done in a matrix format. If she did the arrangement in a proper way she will win the prize or else not. Help the Judges to find out whether she wins the prize. If she wins you can print "Upper triangular matrix" or else "Not an Upper triangular matrix". Write a program to check whether the given matrix is an upper triangular matrix or not
+
+
+
+Input Format
+
+The input consists of the number of rows and columns and the matrix
+
+
+
+Output Format
+
+The output is any one of the following two strings Upper triangular matrix or Not an Upper triangular matrix.
+
+
+
+Sample Input
+
+3
+
+0 0 1
+
+0 2 3
+
+0 0 5
+
+
+
+Sample Output
+
+Upper triangular matrix
+
+
+
+Explanation
+
+Since all the elements below the diagonal of the matrix are 0 it prints the Upper triangular matrix.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to multiply two matrices of the same dimensions together.
+
+
+
+Input Format
+
+The first two integer inputs, m, and n represent the dimensions of both of the matrices that have to be multiplied. Next (m*n) integers represent the elements in the first matrix and followed by another (m*n) integer representing the elements in the second matrix
+
+
+
+Output Format
+
+The output consists of (m*n) integers representing the values of the matrix that is the product of both the input matrices.
+
+
+
+Sample Input
+
+3 3
+
+1 2 3
+
+4 5 6
+
+7 8 9
+
+9 8 7
+
+6 5 4
+
+3 2 1
+
+
+
+Sample Output
+
+30 24 18
+
+84 69 54
+
+138 114 90
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Ravi is not able to figure out the method to calculate the sum of the Zig-Zag pattern in the Matrix. Can you help Ravi to write a program to find the sum of Zig-Zag patterns in a given matrix?
+
+
+
+Input Format
+
+Input consists of 2 integers and 1 2D array.
+Integers corresponding to the size of rows and columns.
+
+
+Output Format
+
+The output prints the sum of the zig-zag pattern.
+Refer to the sample output.
+Note: Size of row and column should be same
+
+
+Sample Input
+
+3
+
+3
+
+1 2 3
+
+4 5 6
+
+7 8 9
+
+
+
+Sample Output
+
+Sum of Zig-Zag pattern is 35
+
+
+
+Explanation
+
+The sum of zig-zag pattern is 1+2+3+5+7+8+9=35 and hence its prints 35
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Given an integer matrix of size n*n. n is the number of rows and columns. Traverse it in a spiral form.
+
+
+
+Input Format
+
+The first line contains N, which represents the number of rows and columns of a matrix.
+The next N lines contain N values, each representing the values of the matrix.
+
+
+Output Format
+
+A single line containing integers with space represents the desired traversal.
+
+
+
+Sample Input 1
+
+3
+
+1 2 3
+
+4 5 6
+
+7 8 9
+
+
+
+Sample Output 1
+
+1 2 3 6 9 8 7 4 5
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Mr. Bean has saved an image in a 2D array and he wants to rotate the image by 90 degrees in clockwise direction. Please help him code for array rotation by 90 degrees in clockwise direction.
+
+
+
+Input Format
+
+The first line contains the size of the matrix N. The next N lines contain the elements of the matrix
+
+
+
+Output Format
+
+The output prints the rotated matrix
+
+
+
+Sample Input 1
+
+3
+
+1 2 3
+
+4 5 6
+
+7 8 9
+
+
+
+Sample Output 1
+
+7 4 1
+
+8 5 2
+
+9 6 3
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to find whether the given number is a prime number or not using recursion.
+
+
+
+Input Format
+
+The Input consists of an integer.
+
+
+
+Output Format
+
+Prints Prime Number or Not a Prime number.
+
+
+
+Sample Input 1
+
+13
+
+
+
+Sample Output 1
+
+Prime Number
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to compute the GCD of 2 numbers using recursion.
+
+
+
+Input Format
+
+Input consists of 2 integers.
+
+
+
+Output Format
+
+Output consists of one integer that represents the GCD of two numbers.
+
+
+
+Sample Input 1
+
+36
+
+27
+
+
+
+Sample Output 0
+
+9
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to convert a decimal number to a binary number by recursion.
+
+
+
+Input Format
+
+The Input consists of an Integer
+
+
+
+Output Format
+
+The Output consists of the input binary form
+
+
+
+Sample Input 0
+
+10
+
+
+
+Sample Output 0
+
+1010
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+In a family, the people are arranged in rows and columns. Male persons in the families are arranged in a row and females are arranged in a column. Find the eldest woman in each column. Write a program to find the maximum element in each column of the matrix.
+
+
+
+Input Format
+
+The input consists of (m*n+2) integers. The first integer corresponds to m, the number of rows in the matrix, and the second integer corresponds to n, the number of columns in the matrix. The remaining integers correspond to the elements in the matrix. The elements are read in row-wise order, the first row first, then the second row, and so on.
+
+
+
+Output Format
+
+Refer to the sample output for details.
+
+
+
+Sample Input
+
+3
+
+2
+
+4 5
+
+6 9
+
+0 3
+
+
+
+Sample Output
+
+6
+
+9
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to move all zeroes to the end of a given integer.
+
+
+
+Input Format
+
+The first line of input contains a number of test cases T.
+For each test case, the first line of input contains a single integer of 0's and 1's.
+
+
+Constraints
+
+1 ≤ T ≤ 10
+1 ≤ N ≤ 109
+
+
+Output Format
+
+The output contains a single-line integer value.
+
+
+
+Sample Input
+
+2
+
+1010101
+
+1000111
+
+
+
+Sample Output
+
+1111000
+
+1111000
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Rohit likes to play with numbers. He started to frame a matrix called uniformity matrix where he will be using either completely odd numbers or completely even numbers but not both. Write a program to check whether he has framed the matrix in the correct order or not.
+
+
+
+Input Format
+
+The input consists of (n*n+1) integers.
+The first integer corresponds to the number of rows/columns in the matrix.
+The remaining integers correspond to the elements in the matrix.
+The elements are read in row-wise order, the first row first, then the second row, and so on.
+
+
+Output Format
+
+Print Yes if it is a uniformity matrix.
+Print No if it is not a uniformity matrix.
+
+
+Sample Input 
+
+2
+
+4 5
+
+5 4
+
+
+
+Sample Output 
+
+No
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+A magic square is an arrangement of numbers (usually integers) in a square grid, there are numbers in the forward and backward main diagonals, all add up to the same number. Write a program to find whether a given matrix is a magic square or not.
+
+
+
+Input Format
+
+The input consists of (n*n+1) integers.
+The first integer corresponds to the number of rows/columns in the matrix.
+The remaining integers correspond to the elements in the matrix.
+The elements are read in row-wise order, the first row first, then the second row, and so on.
+
+
+Output Format
+
+Print yes if it is a magic square.
+Print no if it is not a magic square.
+
+
+Sample Input 1
+
+2
+
+4 5
+
+5 4
+
+
+
+Sample Output 1
+
+No
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Ram has a fruit shop. He has arranged some set of fruits in the column and row-wise. Ram needs to find which row and column have a maximum number of fruits. Help him to find out.
+
+
+
+Input Format
+
+Input consists of 2 integers(size of rows and columns) and 1 2D array.
+
+
+
+Output Format
+
+The output prints the sum of all rows and columns as well as print the row and column which has the maximum sum. Refer to the sample output.
+
+
+
+Sample Input 1
+
+3
+
+3
+
+1 6 8
+
+2 5 1
+
+3 8 2
+
+
+
+Sample Output 1
+
+The Sum of rows is 15 8 13
+
+Row 1 has a maximum sum
+
+The Sum of columns is 6 19 11
+
+Column 2 has the maximum sum
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to compute the factorial of a number using recursion.
+
+
+
+Input Format
+
+Input consists of an integer.
+
+
+
+Output Format
+
+The output consists of an integer that corresponds to the factorial value.
+
+
+
+Sample Input 1
+
+5
+
+
+
+Sample Output 1
+
+The factorial of 5 is 120
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to find the number of digits in a number using recursion.
+
+
+
+Input Format
+
+Input consists of a non-negative integer.
+
+
+
+Output Format
+
+Refer sample output for formatting specifications.
+
+
+
+Sample Input 1
+
+432
+
+
+
+Sample Output 1
+
+The number of digits in 432 is 3
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to find the sum of array elements using recursion.
+
+
+
+Input Format
+
+The Input consists of one integer and a set of integers.
+The first integer corresponds to the number of array elements.
+The second Input corresponds to the array elements.
+
+
+Output Format
+
+The output consists of one integer that corresponds to the sum of the array elements.
+
+
+
+Sample Input 1
+
+5
+
+1
+
+2
+
+3
+
+4
+
+5
+
+
+
+Sample Output 1
+
+15
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to find the nth term in the Fibonacci series using recursion. Note that the first 2 terms in the Fibonacci Series are 0 and 1.
+
+
+
+Input Format
+
+Input consists of an integer.
+
+
+
+Output Format
+
+The output consists of an integer(nth term of the Fibonacci series).
+
+
+
+Sample Input 1
+
+5
+
+
+
+Sample Output 1
+
+The term 5 in the Fibonacci series is 3
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+When the inventor of the game showed the game to the emperor of India, the emperor was so impressed by the new game, that he said to the man "Name your reward!" The man responded, "Oh emperor, my wishes are simple. I only wish for this. Give me one grain of rice for the first square of the chessboard, 2^2 for the next square, 3^3 for the next, 4^4 for the next, and so on for all 64 squares". The emperor agreed, amazed that the man had asked for such a small reward. After a week, his treasurer came back and informed him that the reward would add up to an astronomical sum, far greater than all the rice that could conceivably be produced in many many centuries. The Emperor wanted to check it for himself. Can you help the Emperor to write a program to compute a^n (a power n) using recursion?
+
+
+
+Input Format
+
+The input consists of two integers a and n.
+
+
+
+Output Format
+
+Refer to sample output.
+
+
+
+Sample Input 1
+
+2
+
+8
+
+
+
+Sample Output 1
+
+The value of 2 power 8 is 256
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to find the sum of the positive odd numbers present in an array using recursion.
+
+
+
+Input Format
+
+The first integer input represents the size of the array (n), next n lines consist of values present in the array.
+
+
+
+Output Format
+
+The output prints the sum of positive odd numbers in an array. Refer to the sample output for formatting specifications.
+
+
+
+Sample Input 1
+
+3
+
+1
+
+1
+
+1
+
+
+
+Sample Output 1
+
+Sum = 3
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to find the maximum element in an array using recursion.
+
+
+
+Input Format
+
+Input consists of the size of the array and array elements
+
+
+
+Output Format
+
+The output prints the maximum element in an array. Refer sample input and output for formatting specifications.
+

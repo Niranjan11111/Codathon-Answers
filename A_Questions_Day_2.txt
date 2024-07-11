@@ -1,0 +1,953 @@
+Description
+
+In the city of Rajkot, Gujarat the Golden company is taking care of the expenses for the Court's discussion room. Due to continuous discussions regarding the upcoming 'Ring Road' project at Rajkot, the electricity bill was high and they need to pay it with all the money they have.
+
+The electricity board has decided to charge money based on the units consumed by a particular home. If the units consumed are less than or equal to 200, the cost for one unit is 0.5paise. If the unit is less than or equal to 400, the cost for one unit is 0.65paise plus Rs.100 extra charge. If the unit is less than or equal to 600, the cost for one unit is 0.80paise plus Rs.200 extra charge. If the unit is greater than 600 the cost for one unit is Rs.1.25 plus Rs.425 extra charge. You need to calculate the electricity bill based on the units consumed.
+
+
+
+Input Format
+
+Input consists of one integer which corresponds to the units consumed.
+
+
+
+Output Format
+
+The output consists of one integer which corresponds to the electricity bill in Rupees.
+
+
+
+Sample Input
+
+200
+
+
+
+Sample Output
+
+Rs.100
+
+
+
+Explanation
+
+Here, the units consumed are equal to 200, and the cost for one unit is 0.5. Hence the electricity bill will be Rs.100.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Penny is celebrating her 25th birthday. Her friend Leonard promised her that he will buy her a pair of new shoes on her birthday if she solves the question asked by him. He asks Penny to find out whether the year in which she was born is a leap year or not. Help her to solve this puzzle so that she celebrates her birthday happily. If her birth year is 1995 and it is a leap year display “1995 is a leap year.” Else display “1995 is not a leap year.”
+
+
+
+Input Format
+
+The input consists of 1 integer.
+
+
+
+Output Format
+
+The output consists of 1 string.
+
+
+
+Sample Input 
+
+2016
+
+
+
+Sample Output 
+
+2016 is a leap year
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+John Watson just started to work as a programming trainer for Bart's Placement Cell. He is paid Rs.100 an hour, with a few exceptions. He earns an extra Rs.15 an hour for any part of a day where he works for more than 8 hours. Also, he earns a 25% bonus for working on Saturdays and a 50% bonus for working on Sundays. The bonuses for Saturday and Sunday are computed based on the hours worked on those days. You'll be given the number of hours John Watson worked on each day in a week (Sunday, Monday, ..., Saturday), and you need to compute his salary for the week.
+
+
+
+Input Format
+
+Input consists of 7 integers
+
+
+
+Output Format
+
+Print John's salary for a week.
+
+
+
+Sample Input 1
+
+0
+
+8
+
+8
+
+8
+
+10
+
+6
+
+0
+
+
+
+Sample Output 1
+
+4030
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+The Government of India has decided to provide scholarships for Engineering students. The following are the eligibility criteria. Students passing out on or after 2021 are eligible. Standing arrears shall be maximum of 2. Family Income should be less than or equal to 200000 annually. Students' age should be greater than or equal to 18 and less than 21. The score on the scholarship test should be greater than or equal to 60%. Attendance percentage to date should be greater than or equal to 80%. There are some relaxations provided by the government for the above-mentioned criteria.
+
+If the student has more than 2 standing arrears he/she should score 80% of marks in the scholarship test and attendance should be greater than or equal to 90% to date. If the family income is greater than 200000 but less than 250000 half the scholarship amount will be granted if he/she satisfies all the other criteria.
+
+Write a program to tell the eligibility of the students for the scholarship by providing "Eligible", "Not Eligible", "Partially Eligible"
+
+
+
+Input Format
+
+The first is an Integer denoting age. The second is an Integer denoting the year of passing. The third is an Integer denoting family income. The fourth is an Integer input denoting standing arrears. The fifth is a float denoting the percentage of marks obtained in the scholarship test. The sixth is a float denoting attendance percentage.
+
+
+
+Output Format
+
+A string telling the eligibility as mentioned above.
+
+
+
+Sample Input 1
+
+19
+
+2022
+
+190000
+
+0
+
+100
+
+100
+
+
+
+Sample Output 1
+
+Eligible
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+In the kingdom of Terebinthia, Leslie Burke is so much interested in gardening and hence she plants more trees in her garden. She plants trees in a rectangular fashion with the order of rows and columns and numbers the trees in a row-wise order. She planted the mango trees only in the 1st row, 1st column, and last column. So, given the tree number, your task is to find out whether the given tree is a mango tree or not. Now, write a program to check whether the given number denotes a mango tree or not.
+
+
+
+Input Format
+
+Input consists of 3 integers. The first input denotes the number of rows. The second input denotes the number of columns. The third input denotes the tree number.
+
+
+
+Output Format
+
+If the given number is a mango tree, print "Yes". Otherwise, print "No"
+
+
+
+Sample Input 1
+
+5
+
+5
+
+11
+
+
+
+Sample Output 1
+
+Yes
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Penny wanted to complete her graduation from the Community College of California. But being the newbee she is , she does not how to multiply two numbers. Sheldon being a good friend wanted to help Penny by writing a program to print the multiplication table of an integer n.
+
+
+
+Input Format
+
+Input consists of 2 integers. The first integer corresponds to n. The second integer corresponds to m(rows).
+
+
+
+Output Format
+
+Refer to the sample output for formatting specifications.
+
+
+
+Sample Input 1
+
+5
+
+4
+
+
+
+Sample Output 1
+
+Enter n
+
+Enter m
+
+The multiplication table of 5 is
+
+1*5=5
+
+2*5=10
+
+3*5=15
+
+4*5=20
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+A prime number is divisible only by 1 and itself. You are given a positive integer. Write an algorithm to find all the prime numbers from 2 to the given positive number
+
+
+
+Input Format
+
+The input consists of an integer.
+
+
+
+Output Format
+
+Print space-separated integers representing the prime numbers till the given positive number.
+
+
+
+Sample Input 1
+
+11
+
+
+
+Sample Output 1
+
+2 3 5 7 11
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+The Research team led by Bernadette Wolowitz at Cal-tech University has discovered a new Amoeba that grows in the order of a Fibonacci series every month. They are exhibiting this amoeba at a national conference. They want to know the size of the amoeba at a particular time instant. If a particular month’s index is given, write a program to display the amoeba’s size.
+
+For Example, the size of the amoeba in months 1, 2, 3, 4, 5, 6,... will be 0, 1, 1, 2, 3, 5, 8.... respectively.
+
+
+
+Input Format
+
+The input is an integer that denotes the count of the month.
+
+
+
+Output Format
+
+The output is an integer denoting the amoeba size.
+
+
+
+Sample Input 1
+
+13
+
+
+
+Sample Output 1
+
+144
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to print the hollow square pattern.
+
+
+
+Input Format
+
+Input consists of one integer that corresponds to the number of rows and columns.
+
+
+
+Output Format
+
+Output prints the hollow square pattern for the given number of rows and columns.
+
+
+
+Sample Input 1
+
+5
+
+
+
+Sample Output 1
+
+*****
+
+*  *
+
+*  *
+
+*  *
+
+*****
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Chander started working for Bing and he wanted him to write a program to generate Collatz Sequence. The rules for generating the Collatz sequence are: If n is even, n = n / 2. If n is odd, n = 3n + 1.
+
+For example, if the starting number is 5 the sequence is: 5 -> 16 -> 8 -> 4 -> 2 -> 1 It has been proved for almost all integers, that the repeated application of the above rule will result in a sequence that ends in 1.
+
+
+
+Input Format
+
+The input is an integer 'n' which denotes the first term of the sequence.
+
+
+
+Output Format
+
+As output, print the numbers in the sequence and also print the number of times the rule has to be applied in order to reach 1.
+
+
+
+Sample Input 0
+
+18
+
+
+
+Sample Output 0
+
+18
+
+9
+
+28
+
+14
+
+7
+
+22
+
+11
+
+34
+
+17
+
+52
+
+26
+
+13
+
+40
+
+20
+
+10
+
+5
+
+16
+
+8
+
+4
+
+2
+
+1
+
+20
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+A number can be said as a strong number when the sum of the factorial of the individual digits is equal to the number.
+
+For example, 145 is a strong number. 1! + 4! + 5! = 145. Write a program to check whether a given number is a strong number or not.
+
+
+
+Input Format
+
+Input consists of 1 integer.
+
+
+
+Output Format
+
+If it is a strong number print "Yes" or print "No"
+
+
+
+Sample Input
+
+145
+
+
+
+Sample Output
+
+Yes
+
+
+
+Explanation 0
+
+= 1! + 4! +5! = 1+24+120 = 145
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to find the sum of digits of a number until the sum becomes a single digit.
+
+
+
+Input Format
+
+Input format consists of a number
+
+
+
+Output Format
+
+Output format consists of an integer
+
+
+
+Sample Input 0
+
+8945623
+
+
+
+Sample Output 0
+
+8
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Jaffer wanted to excel in Math. He was learning about the Kaprekar number from Meena, his Maths teacher. She gave him a few random numbers and asked him to find out whether they are Kaprekar number or not.
+
+(Consider an n-digit number k. Square it and add the right n digits to the left n or n-1 digits. If the resultant sum is k, then k is called a Kaprekar number. For example, 9 is a Kaprekar number since 9^2 = 81 & 8 + 1 = 9, similarly, 297 is a Kaprekar number as 297^2 = 88209 & 88 + 209 = 297 ).
+
+Can you help Jaffer to write a program to find whether the given number is a Kaprekar number or not?
+
+
+
+Input Format
+
+Input consists of a single integer.
+
+
+
+Output Format
+
+If the output is a Kaprekar number print "Kaprekar Number" else "Not a Kaprekar Number".
+
+
+
+Sample Input 0
+
+45
+
+
+
+Sample Output 0
+
+Kaprekar Number
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to print the trapezium pattern.
+
+
+
+Sample Input 1:
+
+4
+
+
+
+Sample Output 1:
+
+1*2*3*4*17*18*19*20
+
+--5*6*7*14*15*16
+
+----8*9*12*13
+
+------10*11
+
+
+
+Sample Input 2:
+
+2
+
+
+
+Sample Output 2:
+
+1*2*5*6
+
+--3*4
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Jeni and her brothers Joseph and John found themselves in Narnia, the land of magic during World War III. Narnia was completely filled with gentle people and also it is where the trees sing, the fauns dance, and animals talk. Being from England, Jeni wanted to teach the kids the English language. She started teaching them the alphabet but then she remembered that she might have to go to London and felt sad. John and Joseph discussed with each other and suggested an idea to Jeni to come up with a program so that the kids can learn on their own when she was not there. Can you help Jeni to write a program to check whether the given character is a vowel or consonant or alphabet?
+
+
+
+Input Format
+
+The input consists of a character.
+
+
+
+Output Format
+
+The output should be any one of the below-given strings. Vowel or Consonant or Not an alphabet.
+
+
+
+Sample Input 
+
+e
+
+
+
+Sample Output 
+
+Vowel
+
+
+
+Explanation 
+
+The input character e is a vowel and hence it prints Vowel.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Richard Castle wants to buy a shirt. As he is very lazy, he decided to buy the shirt online. He chooses a shirt on Flipkart and is surprised to see the same shirt on Snapdeal, and Amazon as well. So he decided to buy the shirt from the website which offers the least price. The price of the shirt, the discount percentage, and the shipping charges of all three websites have been given as input. Help him in calculating the price of the shirt on each website and decide which website has the lowest price.If the price in all the three websites are same then first priority goes to Flipkart, then Snapdeal and finally Amazon.
+
+
+
+Input Format
+
+Input consists of 9 integers. The first three input corresponds to Flipkart details such as the price of the shirt, discount offered, and shipping charges. The next three input corresponds to Snapdeal details such as the price of the shirt, discount offered, and shipping charge. The last three input corresponds to Amazon details such as the price of the shirt, discount offered, and shipping charge.
+
+
+
+Output Format
+
+The Output consists of three integers that denote the prices on Flipkart, Snapdeal, and Amazon and should suggest the website that has the lowest price.
+
+
+
+Sample Input
+
+1000
+
+50
+
+50
+
+900
+
+50
+
+70
+
+800
+
+10
+
+200
+
+
+
+Sample Output
+
+In Flipkart: Rs.550
+
+In Snapdeal: Rs.520
+
+In Amazon: Rs.920
+
+Choose Snapdeal
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Jon Snow and the men in the north decided to open Castle Black for the northerners and the Castle was turned into a Hotel. The Hotel was flourishing and there was high demand for the rooms. So Jon Snow decided to modify the tariff accordingly. Write a program to calculate the hotel tariff. The room rent is 20% high during peak seasons [April-June and November-December].
+
+
+
+Input Format
+
+The first input integer denotes the count of the month. The second input integer denotes the room rent per day. The third input integer denotes the number of days stayed in the hotel.
+
+
+
+Output Format
+
+Print the hotel tariff to be paid. (Note: if the month value entered is not ranging from 1-12, print as Invalid Input)
+
+
+
+Sample Input 
+
+3
+
+1500
+
+2
+
+
+
+Sample Output
+
+3000 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Joey Tribbiani wanted to buy a meatball Sandwich and went to the nearby sandwich shop. There was a poster that said if anyone comes up with a program for Trendy Number they can get free Sandwiches for a lifetime as a gift. Can you help Joey to write a program to check whether the given number is a trendy number or not?
+
+A number is said to be a trendy number if it has 3 digits and the middle digit is divisible by 3.
+
+
+
+Input Format
+
+The input is an integer 'n' which denotes the given number.
+
+
+
+Output Format
+
+If the given number is a trendy number, then print "Trendy Number". Otherwise, print "Not a Trendy Number". If the given number is not a 3 digit number, then print "Invalid Number"
+
+
+
+Sample Input
+
+791
+
+
+
+Sample Output
+
+Trendy Number
+
+
+
+Explanation
+
+Here, 791 is a three-digit number, as well as the middle digit(9), which is divisible by 3. Hence the output is a "Trendy Number".
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+The given are two positive integers Year and Month, the task is to find the number of days corresponding to each month of the given year where 1 is January, 2 is February, 3 is March, and so on.
+
+Note: The Input range of year: Minimum Year = 1900 and Maximum Year = 9999 i.e (1900<=Year<=9999). The Input range of month: Minimum Month = 12 and Maximum Year = 12 i.e (1<=month<=12) If the given year does not lie between the given range, output 0.
+
+
+
+Input Format
+
+The input consists of two lines. The first line contains an integer, which is the Year. The second line contains an integer, which is the Month.
+
+
+
+Output Format
+
+The output prints the number of days. Refer to the sample output
+
+
+
+Sample Input 1
+
+2000
+
+2
+
+
+
+Sample Output 1
+
+29 Days
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Praveen is crazy about IPL. He was watching Mumbai Indians vs. Chennai Super Kings final match. Mumbai won the toss and elected to bat first. They finished batting with a score of X. Next, Chennai started to bat and scored Y runs in N number of balls. Now, Praveen wants to calculate the run rate and check whether there is a probability for Chennai to win or not. Help him calculate the run rate and check the probability.
+
+
+
+Input Format
+
+Input consists of 4 integers. The first input corresponds to the total number of balls. The second input corresponds to the total number of runs. The third input corresponds to the number of runs scored. The fourth input corresponds to the number of balls bowled.
+
+
+
+Output Format
+
+The first output corresponds to the total number of overs. The second output corresponds to the total number of overs finished. The third output corresponds to the current run rate. The fourth output corresponds to the total run rate. The fifth output corresponds to the eligibility. If eligible print "Eligible to Win" else print "Not Eligible to Win"
+
+
+
+Sample Input 1
+
+300
+
+375
+
+78
+
+45
+
+
+
+Sample Output 1
+
+50
+
+7.3
+
+10.7
+
+7.5
+
+Eligible to Win
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Professor Kishore wanted the kids to learn about Special numbers. (A two-digit number is said to be a special number if the sum of sum of its digits and the product of its digits is equal to the number itself. For example, 19 is a special number. The digits in 19 are 1 and 9. The sum of the digits is 10 and the product of the digits is 9. 10+9 = 19.)
+
+Can you help Kishore to write a program to find all special numbers between 2 limits m and n (both inclusive)? Assume that m and n are two-digit numbers.
+
+
+
+Input Format
+
+Input consists of 2 integers m and n.
+
+
+
+Output Format
+
+Refer to the sample output for the output format.
+
+
+
+Sample Input 1
+
+11
+
+19
+
+
+
+Sample Output 1
+
+19
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to generate the following series 0,2,8,14,...,34.
+
+
+
+Input Format
+
+The input is an integer that denotes 'n'.
+
+
+
+Output Format
+
+Print the series and refer to the sample output for formatting.
+
+
+
+Sample Input 1
+
+10
+
+
+
+Sample Output 1
+
+0 2 8 14 24 34 48 62 80 98
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Nikitha and Danny are close friends. They both are studying in the same school. Now they are on summer vacation. As they are bored, they ask their parents to take them to an exhibition. Nikitha and Danny play a game. In this game, there are three boxes with some number written on top. There is a treasure in one of the three boxes and it is present in the box with the second largest number on top. Also, to open the box, they need to decode the correct code of this box. The clue given to them to find the code is that it is the largest number that divides all three given numbers. So, now help Nikitha and Danny to decode the code.
+
+
+
+Input Format
+
+Input consists of three integers. The first input corresponds to the number of the first box. The second input corresponds to the number of the second box. The third input corresponds to the number of the third box.
+
+
+
+Output Format
+
+Refer to the sample output.
+
+
+
+Sample Input 1
+
+2
+
+4
+
+6
+
+
+
+Sample Output 1
+
+The treasure is in the box which has the number 4
+
+The code to open the box is 2
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to print an inverted right-angled triangle in a star pattern.
+
+
+
+Input Format
+
+Input consists of one integer that corresponds to the number of pattern rows.
+
+
+
+Output Format
+
+Output prints the inverted right-angled triangle star pattern.
+
+
+
+Sample Input 0
+
+10
+
+
+
+Sample Output 0
+
+**********
+
+*********
+
+********
+
+*******
+
+******
+
+*****
+
+****
+
+***
+
+**
+
+*
+

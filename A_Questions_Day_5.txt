@@ -1,0 +1,523 @@
+Description
+
+Write a program to find whether the given string is a palindrome or not without using string library functions.
+
+Note: The string reads the same backward and forward.
+
+
+
+Input Format
+
+Input consists of 1 string.
+
+
+
+Output Format
+
+If the given string is a Palindrome display “Palindrome”, else display “Not a Palindrome”.
+
+
+
+Sample Input 0
+
+mam
+
+
+
+Sample Output 0
+
+﻿Palindrome
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Antakshari is a popular parlor game played in India. Many word games are similar to antakshari. One such game is wordakshari. The game can be played by two or more people. The first player has to recite a word. The last letter of the word is then used by the next player to recite another word starting with that letter. The winner or winning team is decided by a process of elimination. The person or the team that cannot come up with a word with the right consonant is eliminated. - The following rules need to be followed while playing this game. - (i) All other words except the first word have to begin with the last letter of the previous word - (ii) No words can be repeated. write a program to print the wordakshari chain.
+
+
+
+Input Format
+
+Input consists of n+1 lines.
+The first n lines contain strings corresponding to the words in the chain.
+The last line of input contains the string #### to mark the end of the input.
+
+
+Output Format
+
+The output consists of the valid wordakshari chain.
+
+
+
+Sample Input 0
+
+oracle
+
+error
+
+rohit
+
+####
+
+
+
+Sample Output 0
+
+oracle
+
+error
+
+rohit
+
+
+
+Explanation
+
+﻿In oracle the last letter is e and so the next word will be error since it starts with e and it goes on like that and hence the output is
+
+
+
+- oracle
+
+- error
+
+- rohit
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write the program to reverse each word of a string.
+
+
+
+Input Format
+
+Input consists of one string
+
+
+
+Output Format
+
+The output consists of one string (reverse of the input string)
+
+
+
+Sample Input 0
+
+Hello World
+
+
+
+Sample Output 0
+
+﻿World Hello
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Given two strings s and t, return 1 if s is a subsequence of t, or 0 otherwise.
+
+A subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., "abe" is a subsequence of "abcde" while "aed" is not).
+
+Input Format
+
+Two strings t and s in order.
+
+
+
+Output Format
+
+A single integer(1 or 0)
+
+
+
+Sample Input 0
+
+abcde
+
+abe
+
+
+
+Sample Output 0
+
+﻿1
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+A company transfers an encrypted code to one of its clients. The code needs to be decrypted so that it can be used for accessing all the required information. The code can be decrypted by interchanging each consecutive digit and once a digit has been interchanged then it cannot be used again. If at a certain point there is no digit to be interchanged with, then the single digit must be left as it is.
+
+Write an algorithm to decrypt the code so that it can be used to access the required information.
+
+Input Format
+
+The first line of the input consists of an integer - encrypted code, representing the encrypted code given to the client.
+
+
+
+Output Format
+
+Print an integer representing the decrypted code that can be used for accessing the required information
+
+
+
+Sample Input 0
+
+39631
+
+
+
+Sample Output 0
+
+93361
+
+
+
+Explanation
+
+Step 1 - Interchange the first two digits, 3 and 9, which form 93631.
+
+Step 2 - Interchange the third and fourth digits, 6 and 3 which form 93361,
+
+Step 3 - For the fifth digit as there is no digit to be interchanged with, it is left it is so it will be kept as 93361.
+
+So, the output is 93361.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+A game has to be played by Varun whereas he is not supposed to take the characters into account. His task is to add the numbers given in a string containing alphanumeric characters. If he adds the character values he will die. Help him to win the game by writing a program to print the sum of numbers
+
+
+
+Input Format
+
+Input consists of one string.
+
+
+
+Output Format
+
+The Output consists of one integer that corresponds to the sum of all numbers present in the string.
+
+
+
+Sample Input 0
+
+1abc23
+
+
+
+Sample Output 0
+
+24
+
+
+
+Explanation
+
+Here the numbers are 23 and 1 and so its sum is 24 that will get printed.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to read and display student data using union.
+
+
+
+Input Format
+
+- The first character input consists of the grade of the student
+
+- The second character array input consists of the roll number of student
+
+- The third float input consists of the mark of the student
+
+- The fourth integer input consists of the fees for student
+
+
+
+Output Format
+
+Refer to the sample output
+
+
+
+Sample Input 0
+
+Grade is: A
+
+Rollno is: 15EC110
+
+Mark is: 78.98
+
+Fees paid is: 25000
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to calculate the difference between two time periods using structure.
+
+
+
+Input Format
+
+The first input consists of hours of time1
+The second input consists of minutes of time1
+The third input consists of seconds of time1
+The fourth input consists of hours of time2
+The fifth input consists of minutes of time2
+The sixth input consists of seconds of time2
+Note: hours, minutes, and seconds are denoted as structure variables.
+
+
+Output Format
+
+Refer sample output format
+
+
+
+Sample Input 0
+
+12
+
+45
+
+56
+
+2
+
+39
+
+45
+
+
+
+Sample Output 0
+
+﻿TIME DIFFERENCE: 12:45:56 - 2:39:45 = 10:6:11
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to count the number of vowels in the given string.
+
+
+
+Input Format
+
+Input consists of 1 string.
+
+
+
+Output Format
+
+Output print the number of Vowels.
+
+
+
+Sample Input 0
+
+face 
+
+
+
+Sample Output 0
+
+Number of vowels: 2 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Lee conducted a word game for his colleagues. The game is everyone should say a word that should not have any repeating characters in it. If a single character is repeated then the particular person can't continue the game. Lee finds it difficult to disqualify the person from the game since he is not able to find the nonrepetitive character for all the words. Help him to find the winner of the game by writing a program to find the first element which is non -repetitive i.e that element must not be present anywhere else in the string.
+
+
+
+Input Format
+
+The first line of the input consists of a string.
+
+
+
+Output Format
+
+The output displays a character that is non-repetitive. If all the characters in an input string are repetitive, then display All characters are repetitive.
+
+
+
+Sample Input 0
+
+teeterson 
+
+
+
+Sample Output 0
+
+r
+
+
+
+Explanation
+
+Here in the word teeterson the first non-repeating character is r and hence it prints r.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to sort a string in ascending order. Note: Do not use inbuilt functions.
+
+
+
+Input Format
+
+The input consists of the string s in a single line.
+
+
+
+Output Format
+
+Display the sorted string in ascending order.
+
+
+
+Sample Input 0
+
+faceprep
+
+
+
+Sample Output 0
+
+﻿aceefppr
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to find whether the given string is the anagram of the first string.
+
+Note: An anagram of a string is another string that contains the same characters, only the order of characters can be different.
+Input Format
+
+The input consists of two strings.
+
+
+
+Output Format
+
+The output Print "Anagram", if strings are Anagram otherwise print "Not Anagram"
+
+
+
+Sample Input 0
+
+eat
+
+ate
+
+
+
+Sample Output 0
+
+Anagram
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+An online test was conducted for the students for taking up a new course. In the test, the students will be provided with two words. They need to remove the characters in the second word which is present in the first word and have to type the rest. Write a program to remove all characters in the second string which are present in the first string
+
+
+
+Input Format
+
+Input consists of two strings.
+
+
+
+Output Format
+
+The output consists of one string.
+
+
+
+Sample Input 0
+
+Motor
+
+Motorcycle
+
+
+
+Sample Output 0
+
+cycle
+
+
+
+Explanation
+
+﻿The characters which are not present in the first string but present in the second string are a cycle and hence the output is cycle.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Measurements continue to play an important role throughout everybody's life. Hari who is a sportsman has studied how to add two distances in inch feet system. Now he needs to do the programming for the same. Help him to write a program to add two distances in inch feet system using Structure
+
+Note: 1feet = 12inch
+Input Format
+
+Input 1: feet1 and Inch1
+Input 2: feet2 and Inch2
+Feet is in integer data type and inch is in float data type
+
+
+Output Format
+
+The output prints the Sum of Distance.
+
+
+
+Sample Input 0
+
+22
+
+4.7
+
+23
+
+7.9
+
+
+
+Sample Output 0
+
+﻿46'-0.6"
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+

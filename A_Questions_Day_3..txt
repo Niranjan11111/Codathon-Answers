@@ -1,0 +1,545 @@
+Description
+
+Two arrays are said to be compatible if they are of the same size and if the ith element in the first array is greater than or equal to the ith element in the second array for all the values of i. Write a program to find whether 2 arrays are compatible or not.
+
+
+
+Input Format
+
+Input consists of 2n+2 integers. The first integer corresponds to ‘n1’, the size of the first array. The next ‘n1’ integers correspond to the elements in the first array. The next (n+1) integer corresponds to 'n2', the size of the second array. The last 'n2' integers correspond to the elements in the second array.
+
+
+
+Output Format
+
+The output is any one of the two strings "Compatible" or "Incompatible"
+
+
+
+Sample Input 0
+
+5
+
+2
+
+3
+
+6
+
+8
+
+1
+
+5
+
+1
+
+1
+
+1
+
+1
+
+1
+
+
+
+Sample Output 0
+
+Compatible
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Kailash and his daughter Keerthana were arguing about who is the smartest person in the family. Kailash who is a world-known Computer Engineer asked Keerthana who has not yet completed college to write a program to sort the given array in ascending order. Can you help Keerthana?
+
+
+
+Input Format
+
+Input consists of 1 integer and 1 array. The integer corresponds to the size of the array.
+
+
+
+Output Format
+
+The output consists of an array of elements after sorting.
+
+
+
+Sample Input 0
+
+5
+
+54
+
+68
+
+25
+
+14
+
+74
+
+
+
+Sample Output 0
+
+The Sorted array is:
+
+14
+
+25
+
+54
+
+68
+
+74
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+A bus stop queue has 'n' groups of people. The i-th group from the beginning has 'ai' people. Every 30 minutes an empty bus arrives at the bus stop, it can carry atmost 'm' people. Naturally, the people from the first group enter the bus first. Then goes the people from the second group and so on. Note that the order of groups in the queue never changes. Moreover, if some group cannot fit all of its members into the current bus, it waits for the next bus and joins with the other groups standing after them in the queue. Your task is to determine the number of buses needed to transport all 'n' groups to the Jeju Island countryside.
+
+
+
+Input Format
+
+The first line contains two integers n and m (1 ≤ n, m ≤ 100). The next line contains n integers: a1, a2, ..., an (1 ≤ ai ≤ m).
+
+
+
+Output Format
+
+Print a single integer — the number of buses needed to transport all n groups to the Jeju Island countryside.
+
+
+
+Sample Input 0
+
+4 3
+
+2 3 2 1
+
+
+
+Sample Output 0
+
+3
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Arjuna and Karna were playing cards. Arjuna has 5 cards. Karna wants to insert a new card in between Arjuna's cards. Karna wants to find the position to insert the card. So help him to find the position to insert a certain card. If Karna inserts a card in a position other than the position of 5 cards, the game will be over. So play carefully.
+
+For example, consider an array having three elements in it initially and a[0] = 1, a[1] = 2 and a[2] = 3 and you want to insert a number 45 at location 1 i.e. a[0] = 45, so we have to move elements one step below after insertion a[1] = 1, and a[2] = 2 and a[3] = 3.
+
+
+
+Input Format
+
+The input consists of four integers. The first input corresponds to the size of an array. The second input corresponds to the array elements. The third input corresponds to the location where you wish to insert an element. The fourth input corresponds to the element to be inserted.
+
+
+
+Output Format
+
+The output consists of array elements in a format after insertion. If the position where the element has to be inserted is greater than size of the array, then print Invalid Input.
+
+
+
+Sample Input
+
+5
+
+1
+
+2
+
+3
+
+4
+
+5
+
+4
+
+10
+
+
+
+Sample Output
+
+Array after insertion is
+
+1
+
+2
+
+3
+
+10
+
+4
+
+5
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Jack and John were investigating a murder and the murderer was Ms.Isha Adler. She wanted Jack to find her by solving the puzzles. Jack was able to solve all but one. The last task was to write a program to remove duplicate elements from an array. Can you help Jack?
+
+
+
+Input Format
+
+Input consists of 1 integer and 1 array. The first integer corresponds to the size of the array. The next integers correspond to the elements in the array.
+
+
+
+Output Format
+
+The output consists of an array with no duplicate elements.
+
+
+
+Sample Input
+
+5
+
+1
+
+2
+
+2
+
+3
+
+4
+
+
+
+Sample Output
+
+1
+
+2
+
+3
+
+4
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+In the city of Toyland, there are N houses. Noddy is looking for a piece of land in the city to build his house. All the houses in the city lie in a straight line and all of them are given a house number and position of the house from the entry point of the city. Noddy wants to find the house numbers between which he can build the largest house. Write an algorithm to help Noddy to find the house numbers between which he can build his house.
+
+Hint: No two houses will have the same position in case of multiple such answers, print the one with the least distance from the reference point.
+
+
+
+Input Format
+
+The first line of the input consists of an integer num, representing the number of houses (N). The next N lines consist of two space-separated integers – house Num and pos, representing the house number and the position of the houses.
+
+
+
+Constraints
+
+2 < num < 10^6
+1 < house Num < num
+0 < pos < 10^6
+
+
+Output Format
+
+Print two space-separated integers representing the house numbers in ascending order between which the largest plot is available.
+
+
+
+Sample Input
+
+5
+
+3 7
+
+1 9
+
+2 0
+
+5 15
+
+4 30
+
+
+
+Sample Output
+
+4 5
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+An oil factory has N number of containers and each has a different capacity. During renovation, the manager decided to make some changes with the containers. He wishes to make different pairs for the containers in such a way that in the first pair, the container of maximum capacity is paired with the container of minimum capacity, and so on for the rest of the containers, to maintain a balance throughout all the pairs of containers.
+Write an algorithm to make different pairs of containers in such a way that the first container in the pair is of maximum capacity and second container in the pair is of minimum capacity.
+
+
+Input Format
+
+The first line of the input consists of an integer - numContainers, representing the number of containers (N).
+The next line consists of N space-separated integers - cont1, cont2, .... contN, representing container capacity.
+
+
+Constraints
+
+1 <= numContainers <= 1000
+1 <= conti <= 1000
+1 <= i <= numContainers
+
+
+Output Format
+
+Print K lines consisting of two space-separated integers representing the pairs that will be formed to maintain the balance by pairing the container of maximum capacity with the container of minimum capacity and so on.
+
+
+Note
+If only one container is left and no pair is possible then print the capacity of that container and the second value will be '0'.
+
+
+Sample Input
+
+6
+
+100 560 23 19 53 20
+
+
+
+Sample Output
+
+560 19
+
+100 20
+
+53 23
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+You are given an array a[ ] of n integers. The task is to find the smallest positive number missing from the array.
+
+
+
+Input Format
+
+First line - n, the size of an array Second line - all the n elements (a[i] can be positive, negative, zero)
+
+
+
+Output Format
+
+Print the smallest positive number missing from the array.
+
+
+
+Sample Input
+
+6
+
+4 2 0 -1 1 -3
+
+
+
+Sample Output
+
+3
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+The Modern World Cinderella was happy to meet Prince Charming at the ballroom and she danced with him happily. While she was dancing, Prince wanted to check whether Cinderella is a perfect match for him. He asked her a question to check her knowledge of Arrays. Can you help Cinderella to write a program to find whether the two arrays are the same or not?
+
+Note: Two arrays are said to be the same if the sum of both arrays is the same and the size of the arrays is the same.
+
+
+
+Input Format
+
+Input consists of 2 integers and 2 arrays. The integers should correspond to the size of the arrays.
+
+
+
+Output Format
+
+If two arrays are the same, display "Same" else display "Not Same"
+
+
+
+Sample Input 0
+
+4
+
+4
+
+1
+
+2
+
+3
+
+4
+
+1
+
+2
+
+3
+
+4
+
+
+
+Sample Output 0
+
+Same
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Harish and Rajesh were developing a plan to find the ideal woman for Sheldon Cooper. There were puzzles, translations, and questions to check a person's intelligence. One such question was to come up with a program to count the number of distinct elements in an array. Harini is a postdoctoral researcher and a former graduate student of Caltech who is a huge fan of Sheldon's work and she wanted to impress Sheldon by writing a program to count the number of distinct element in an array. Can you help Harini?
+
+
+
+Input Format
+
+Input consists of 1 integer and 1 array. The first integer corresponds to the size of the array.
+
+
+
+Output Format
+
+The output prints the number of distinct element in an array.
+
+
+
+Sample Input 0
+
+5
+
+1
+
+2
+
+3
+
+3
+
+4
+
+
+
+Sample Output 0
+
+There are 4 distinct element in the array.
+
+
+
+Explanation
+
+Since there are 4 distinct elements it will print There are 4 distinct element in the array.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Dolores Abarnathy and Maeve Millay were playing a puzzle game with a given set of numbers. They need to find the odd and even numbers and find the sum of the odd numbers and the sum of the even numbers. Write a program to help them to solve the puzzle game and to win the mobile phone.
+
+Input Format:
+
+Input consists of n+1 integers. 
+
+The first integer corresponds to ‘n’, the size of the array. 
+
+The next ‘n’ integers correspond to the elements in the array. 
+
+Assume that the maximum value of n is 15.
+
+Output Format:
+
+Refer to sample output for details.
+
+Sample Input:
+
+5
+
+2
+
+3
+
+6
+
+8
+
+-1
+
+Sample Output:
+
+The sum of the even numbers in the array is 16
+
+The sum of the odd numbers in the array is 2
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+You are playing an online game. In the game, a list of N numbers is given. The player has to arrange the numbers so that all the odd numbers on the list come after the even numbers. Write an algorithm to arrange the given list such that all the odd numbers of the list come after the even numbers.
+
+
+
+Input Format
+
+The first line of the input consists of an integer num, representing the size of the list(N). The second line of the input consists of N space-separated integers representing the values of the list.
+
+
+
+Output Format
+
+Print N space-separated integers such that all the odd numbers of the list comes after the even numbers
+
+
+
+Sample Input 
+
+8
+
+10 98 3 33 12 22 21 11
+
+
+
+Sample Output 
+
+Array after Segregation
+
+10 98 22 12 33 3 21 11
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -1,0 +1,669 @@
+                                                       DAY 1
+                                                       Simple input/output
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Student Details:
+
+
+
+Write a program to print the details of a student. The student's details consist of his/her name, age, CGPA, and grade.
+
+
+
+Input Format:
+
+The input consists of one string, one integer, one float, and one character.
+
+The string corresponds to the name of a student.
+
+The integer corresponds to the age of a student.
+
+The float corresponds to the CGPA of a student.
+
+The character corresponds to the grade of a student.
+
+
+
+Output Format:
+
+The output prints all the details of a student.
+
+Refer to the sample Output.
+
+
+
+Note: The CGPA (float value) should be printed with 2 decimal places.
+
+
+
+Sample Input 1:
+
+Rajeev
+
+20
+
+8.6467
+
+B
+
+Sample Output 1:
+
+Name: Rajeev
+
+Age: 20
+
+CGPA: 8.64
+
+Grade: B
+
+
+
+Sample Input 2:
+
+Meera
+
+18
+
+9.123
+
+A
+
+
+
+Sample Output 2:
+
+Name: Meera
+
+Age: 18
+
+CGPA: 9.12
+
+Grade: A
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+ASCII Values - I
+
+
+
+Write a program to get a character as input and print its ASCII value.
+
+
+
+Sample Input 1:
+
+a
+
+
+
+Sample Output 1:
+
+97
+
+
+
+Sample Input 2:
+
+A
+
+
+
+Sample Output 2:
+
+65
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Round Off
+
+
+
+Write a program to get a float value from the user and display it in the below-mentioned format.
+
+HINT: Use ceil() and floor() functions from the header file.
+
+
+
+Input & Output Format:
+
+Input consists of one float value.
+
+The output consists of one integer, its rounded-up value, and its rounded-down value.
+
+
+
+Sample Input 1:
+
+54.5
+
+
+
+Sample Output 1:
+
+54
+
+55
+
+54
+
+
+
+Sample Input 2:
+
+66.7
+
+
+
+Sample Output 2:
+
+66
+
+67
+
+66
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+The Newspaper Agency
+
+
+
+Each Saturday, The Herald sells 'a' copies of a special edition newspaper for Rs. b per copy. The cost to him for printing each newspaper is Rs. c. He pays a fixed cost of Rs.100 per Saturday for storage, delivery, and so on. He wants to calculate the profit which it obtains only on Saturdays. Can you please help him out by writing a program to compute the profit if a, b, and c are given?
+
+
+
+Input Format:
+
+Input consists of 3 integers:
+
+a, b, and c.
+
+a is the number of copies sold, b is the cost per copy and c is the cost The Herald spends per copy.
+
+
+
+Output Format:
+
+The output consists of a single integer which corresponds to the profit obtained by The Herald.
+
+
+
+Sample Input 1: 
+
+1000
+
+2
+
+1
+
+
+
+Sample Output 1: 
+
+900
+
+
+
+Sample Input 2: 
+
+600
+
+4
+
+2
+
+
+
+Sample Output 2: 
+
+1100
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Harry Potter
+
+
+
+Having crossed the three-headed faun, Harry, Dumbledore, and Snape went through a secret trap door in search of the Sorcerer's tomb. On the way, they passed through a room and found that the room has only one door opposite to them, and the door through which they entered shut once they entered the room. The door was very large with a four-digit number imprinted on it. When Harry and Dumbledore tried to open it by casting out spells, it didn't open. Having tried various spells, both got fed up and left the task to Snape. Snape curiously observing the room found that a statement was written on the top of the room. It was written as follows "I will be always four" “I can only be opened when you add my first and last digit and enter it” and “If you find a sign, you should not consider it” help Snape break the code and open the door so that they can save the Sorcerer's tomb.
+
+
+
+Input Format:
+
+Input consists of an integer which is a four-digit number present on the door.
+
+
+
+Output Format:
+
+The output is a single integer.
+
+
+
+Sample Input 1: 
+
+1001 
+
+
+
+Sample Output 1: 
+
+2
+
+
+
+Sample Input 2: 
+
+1110 
+
+
+
+Sample Output 2: 
+
+1
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description:
+
+Leena wanted to start a business and she was looking for a venture capitalist. Through her friend, she met a construction company owner Meena, who was interested in investing in an emerging business. Looking at the business proposal, the owner was very much impressed with Leena's work. So she decided to invest in Leena's business and hence gave a green signal to go ahead with the project. Leena got a loan of Rs. X for a period of Y years from the owner at R% interest per annum. Find the rate of interest and the total amount to be returned by Leena to the owner. The owner was impressed by the proper repayment of the financed amount and decides to give a special offer of a 2% discount on the total interest at the end of the settlement. Find the discount amount and also find the total amount given back by Leena.
+
+Note:All rupee values should be in two decimal points.
+
+
+
+Input Format:
+
+Input consists of 3 floating point values.
+
+The first one corresponds to the principal amount borrowed by Leena.
+
+The second one corresponds to the rate of interest
+
+The third one corresponds to the number of years.
+
+The output consists of 4 floating point values.
+
+
+
+Output Format:
+
+The first value corresponds to the interest.
+
+The second value corresponds to the amount.
+
+The third value corresponds to the discount.
+
+The last value corresponds to the final settlement.
+
+All floating point values are to be rounded off to two decimal places.
+
+
+
+Sample Input:
+
+100
+
+1
+
+10
+
+
+
+Sample Output:
+
+10.00
+
+110.00
+
+0.20
+
+109.80
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description:
+
+Kamal was traveling from Korea to USA and he was not aware of the currency system of USA. Can you please help him to add two dollars and cents?
+
+Note: 1 dollar=100 cents
+
+
+
+Input Format
+
+Input consists of 4 integers. The first two inputs correspond to the value of the first dollar and cent. The next two inputs correspond to the value of the second dollar and cent.
+
+
+
+Output Format
+
+The output should print the sum of dollars and cents.
+
+
+
+Sample Input
+
+30
+
+10
+
+140
+
+99
+
+
+
+Sample Input
+
+171
+
+9
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Write a program to reverse a 3-digit number.
+
+
+
+Input Format
+
+Input consists of an integer.
+
+
+
+Output Format
+
+The output will be the reverse of the input integers.
+
+
+
+Sample Input
+
+456
+
+
+
+Sample Output
+
+654
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Pradeep is designing the input interaction for X-O game (a.k.a TIC-TAC-TOE). The user identifies the positions as 1|2|3 4|5|6| 7|8|9. Since the board is a 2-dimensional layout (3x3), Pradeep uses a 2-dimensional array to store board status and he identifies positions by row, and column as for first-row elements -(0,0),(0,1),(0,2) andfor second-row elements - (1,0),(1,1),(1,2) and for 3rd row elements - (2,0),(2,1),(2,2). Help Pradeep to solve the conversion from user's input (1-9) to (Row, Column) (0-2),(0-2) respectively.
+
+Note - Indexing for rows and columns is 0-based.
+
+
+
+Input Format
+
+Only line of input will contain one integer n
+
+
+
+Constraints
+
+1 <= n <= 9
+
+
+
+Output Format
+
+By using the input, you have to tell the row and column number associated with it.
+
+
+
+Sample Input
+
+6
+
+
+
+Sample Output
+
+1 2
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fencing the Ground
+
+
+
+In Westeros, the fighting ground is rectangular in shape. The King of Westeros, Bran Stark decides to build a fence around the ground. In order to help the construction workers to build a straight fence, he planned to place a thick rope around the ground. He decided to buy a rope of length that exactly fits the boundary. He also wanted to cover the entire ground with a thick carpet during the rainy season. The carpet should also be bought in such a way that it exactly covers the entire ground. Being the three-eyed Raven, he was lost in his thoughts and requested your help. Can you please help King Bran by writing a program to find the exact length of the rope and the exact area of the carpet that is required?
+
+
+
+Hint:
+
+Area of rectangle = length * breadth
+
+perimeter of a rectangle = 2* (length + breadth)
+
+
+
+Input Format:
+
+Input consists of 2 integers. 
+
+The first integer corresponds to the length of the ground. 
+
+The second integer corresponds to the breadth of the ground.
+
+
+
+Output Format:
+
+Refer to the sample Input and Output for exact formatting specifications.
+
+
+
+Sample Input 1:
+
+50
+
+20
+
+
+
+Sample Output 1:
+
+The required length is 140 m
+
+The required area of carpet is 1000 sqm
+
+
+
+Sample Input 2:
+
+20
+
+90
+
+
+
+Sample Output 2:
+
+The required length is 220 m
+
+The required area of carpet is 1800 sqm
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Splitting into the teams
+
+
+
+During the weekend, Ross Geller has decided to conduct some team games. He wants to split his friends into equal-sized teams. In some cases, some friends may be left out of the teams, and he wanted to use the left-out friends to assist him in conducting the team games. For instance, if there are 50 friends and they have to be divided into 7 equal-sized teams, then there will be 7 in each team and 1 friend will be left out. Ross asks for your help to automate this team-splitting task. Can you please help him out?
+
+
+
+Input Format:
+
+Input consists of 2 integers. 
+
+The first integer corresponds to the number of friends Ross has. 
+
+The second integer corresponds to the number of teams.
+
+
+
+Output Format:
+
+Refer sample input and output for formatting specifications.
+
+
+
+Sample Input 1:
+
+60
+
+8
+
+
+
+﻿Sample Output 1:
+
+The number of friends in each team is 7 and left out is 4
+
+
+
+Sample Input 2:
+
+78
+
+6
+
+
+
+Sample Output 2:
+
+The number of friends in each team is 13 and left out is 0
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Descrption:
+
+Mani, Arun, and Kumar were very close friends at school. They were very good in Mathematics and were the pets of Ranjani Ma'am. Mani, Arun, and Kumar live in the same locality and their gang was known as 3 - Psychos. A new student Logan joins their class and he wanted to be friends with the 3 - Psychos. Logan asked Arun about his home address. Arun wanted to test Logan's mathematical skills and hence told that his house is at the midpoint of the line joining Mani's house and Kumar's house. Logan was puzzled. Can you help Logan out? Given the coordinates of the 2 endpoints of a line (x1,y1) and (x2,y2). Write a program to find the midpoint of the line.
+
+
+
+Input Format
+
+Input consists of 4 integers. The first and second value corresponds to x1 and y1 respectively. The third and fourth value correspond to x2 and y2 respectively.
+
+
+
+Output Format
+
+Refer sample input and output for the exact formatting specifications.
+Print with 1 decimal place
+
+
+Sample Input:
+
+2
+
+4
+
+10
+
+15
+
+
+
+Sample Output:
+
+Arun's house is located at(6.0,9.5)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description:
+
+Peter Rabbit lives in a colony. He is the only rabbit in his colony who is not able to hop. On his 5th birthday, his father Rabbit gifted him a pogo stick as he could not jump like the other rabbits. He is so excited to play with the pogo stick. The pogo stick hops one unit per jump. He wanders around his house jumping with pogo sticks. He wants to show the pogo stick to his friend and decides to go using his pogo stick. Write a program to find the number of hops needed to reach his friends' house (x,y). Assume that Peter Rabbit's house is in the coordinates (3,4).
+
+
+
+Input Format
+
+Input consists of two integers x and y.
+
+
+
+Output Format
+
+The output is an integer. It corresponds to the number of hops needed to reach his friend's house.
+
+
+
+Sample Input
+
+5 
+
+10 
+
+
+
+Sample Output
+
+6
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Description
+
+Though there have been more successful pirates, Blackbeard is one of the best-known and widely feared of his time. He commanded four ships and had a pirate army of 300 at the height of his career and defeated the famous warship, HMS “Scarborough” in a sea battle. He was known for barreling into the battle clutching two swords with several knives and pistols at the ready. He captured over forty merchant ships in the Caribbean and without flinching killed many prisoners. Now, Blackbeard and his three pirates found a treasure of gold coins. Long Ben too joined them. They decided to share the treasure. Blackbeard agreed to give x% share for Long Ben. He then decided to take y% share from the remaining treasure. His other pirates will share the remaining gold coins equally. Write a program to compute their shares. After sharing the gold coins in this manner, if there are any leftover coins they decided to throw them into the sea.
+
+
+
+Input Format
+
+Input consists of 3 integers. The first input corresponds to the number of gold coins in the treasure. The second input corresponds to Ben's share percentage. The last input corresponds to Blackbeard's share percentage.
+
+
+
+Output Format
+
+The output consists of three integers. The first output integer corresponds to Long Ben's share. The second output integer corresponds to Blackbeard's share. The third output should correspond to the other 3 pirates' equally divided shares.
+
+
+
+Sample Input
+
+729
+
+65
+
+87
+
+
+
+Sample Input
+
+473
+
+222
+
+11
